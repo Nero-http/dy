@@ -78,3 +78,26 @@ form {
     color: blue;
     }
 }
+
+nav a {
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: rgb(190, 54, 77);
+}
+
+button {
+    transition: background-color 1s ease;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 24px;
+}
+
+button:hover {
+    background-color: rgb(201, 48, 73);
+    color: black;
+}
+
