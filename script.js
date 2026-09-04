@@ -22,7 +22,10 @@ function greet(greetings, names = []) {
 console.log ( greet("Mayong aga", ["Anghel","Cholo","Toto","Nero."]) );
 
 const heading = document.querySelector("h1");
-heading.textContent = "Steward";
+heading.textContent = "Steward Dy";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
 console.log (heading.textContent);
 
 
