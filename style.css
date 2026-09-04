@@ -17,8 +17,8 @@ nav {
 nav ul {
     display: flex;
     gap: 20px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 main {
@@ -27,14 +27,13 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    max-width: 1200px;
 }
 
 main section {
     flex: 1;
     min-width: 280px;
     border: 2px solid black;
-    padding: 20px;
+    padding: 20px
 }
 
 form {
@@ -74,8 +73,8 @@ form {
 
 @media (max-width: 768px) {
     h2 {
-    font-size: 48px;
-    color: blue;
+        font-size: 48px;
+        color: blue;
     }
 }
 
@@ -84,20 +83,19 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(190, 54, 77);
+    color: pink;
 }
 
 button {
-    transition: background-color 1s ease;
     background-color: black;
     color: white;
-    border-radius: 10px;
-    border: none;
     padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s ease;
 }
 
 button:hover {
-    background-color: rgb(201, 48, 73);
+    background-color: pink;
     color: black;
 }
-
